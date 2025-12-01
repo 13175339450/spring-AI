@@ -15,6 +15,7 @@
         <module>demo02-role-preset</module>
         <module>demo03-define-prompt</module>
         <module>spring-base</module>
+        <module>demo04-function-call</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>

@@ -24,4 +24,11 @@ public class ChatAIConfig {
                 .defaultSystem(SpringAIConst.ROLE_PRESET)
                 .build();
     }
+
+    @Bean
+    public ChatClient functionClient(ChatClient.Builder builder) {
+        return builder
+                .defaultSystem(SpringAIConst.SYSTEM_ROLE_FUNCTION)
+                .build();
+    }
 }
